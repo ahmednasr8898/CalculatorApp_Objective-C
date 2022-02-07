@@ -31,6 +31,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vSE-tS-6yp"/>
+                                                    <action selector="clearBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="owP-8n-tzp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5R-XE-Pn8">
@@ -64,6 +65,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D0R-6N-XbW"/>
+                                                    <action selector="equalBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9VI-en-Unw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -118,6 +120,7 @@
                                                     <color key="titleColor" systemColor="systemRedColor"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="addBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMO-W9-klB"/>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9Z-jQ-0Gg"/>
                                                 </connections>
                                             </button>
@@ -168,6 +171,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQ0-3P-jKp"/>
+                                                    <action selector="subtractBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fWh-n8-WxW"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -221,6 +225,7 @@
                                                     <color key="titleColor" systemColor="systemRedColor"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="MultiplyBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aUj-fg-oKt"/>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i4k-Ze-5yD"/>
                                                 </connections>
                                             </button>
@@ -276,7 +281,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="btnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kex-ic-gU3"/>
-                                                    <action selector="divBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Fc-R7-ymz"/>
+                                                    <action selector="divBtnDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zqy-xi-Sah"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -358,7 +363,7 @@
                         <outlet property="clearBtn" destination="z0D-O2-1Ix" id="n6O-KW-Sch"/>
                         <outlet property="countenerView" destination="LCL-9M-Lf5" id="RKR-gD-W9z"/>
                         <outlet property="darkLightSegment" destination="fuJ-Ul-DHb" id="Qbt-qJ-Smi"/>
-                        <outlet property="divBtn" destination="Bbk-e8-Uv9" id="3UT-hK-2EW"/>
+                        <outlet property="divBtn" destination="Bbk-e8-Uv9" id="3lc-L6-bnA"/>
                         <outlet property="dotBtn" destination="Sjy-Z6-oWi" id="xf9-Rs-6SM"/>
                         <outlet property="eightBtn" destination="7IX-no-hUY" id="QJq-Rv-BDS"/>
                         <outlet property="equalBtn" destination="GKA-X7-kGi" id="1Az-Ek-NpE"/>
